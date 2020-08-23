@@ -1,0 +1,225 @@
+{
+  "firstName": "Shanika",
+  "lastName": "Wijerathna",
+  "about": {
+    "role": "Fullstack Java Developer",
+    "description": "I enjoy solving complex problems by implementing simple solutions."
+  },
+  "contactDetails": {
+    "location": "Auckland, New Zealand",
+    "email": "shanikacj@gmail.com",
+    "phone": "+64 21 02482 571"
+  },
+  "experience": [
+    {
+      "company": "New Zealand Transport Agency",
+      "location": "Auckland, New Zealand",
+      "period": "Mar 2018 - Present",
+      "role": "Fullstack Java Developer",
+      "description": [
+        "I have been contributing to build a Traffic Operations Management System for New Zealand's Traffic Operation Centers. (ATOC/WTOC)",
+        "Involved in the project from the start and contributed to building backend services, frontend components, configuring servers on the cloud, setting up dev-ops capabilities and provide technical leadership."
+      ],
+      "techs": [
+        "ReactJS",
+        "Java",
+        "Spring Boot",
+        "Hibernate",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Azure DevOps",
+        "Google Cloud Platform",
+        "Agile",
+        "Leadership"
+      ]
+    },
+    {
+      "company": "Vero Insurance",
+      "location": "Auckland, New Zealand",
+      "period": "Dec 2016 - Feb 2018",
+      "role": "Fullstack Java Developer (Contract)",
+      "description" : [
+        "Involved in customizing a Business Insurance web portal for New Zealand market needs. I did system integration with backend Insurance quote processing systems and contributed to frontend customizations."
+      ],
+      "techs": [
+        "AngularJS",
+        "LESS",
+        "Grunt",
+        "Java",
+        "Spring Boot",
+        "Service Oriented Architecture",
+        "System Integration",
+        "Agile"
+      ]
+    },
+    {
+      "company": "Sky TV",
+      "location": "Auckland, New Zealand",
+      "period": "Jun 2016 - Dec 2016",
+      "role": "Software Developer (Integration)",
+      "description" : [
+        "Developed a test framework for Sky TV's backend media transcoding system. Fixed bugs in existing media transcoding system integration with other internal systems"
+      ],
+      "techs": [
+        "Java",
+        "Jersey",
+        "Guice",
+        "Cucumber",
+        "WSO2",
+        "System Integration",
+        "PostgreSQL",
+        "Bamboo"
+      ]
+    },
+    {
+      "company": "WEX NZ Ltd",
+      "location": "Auckland, New Zealand",
+      "period": "Aug 2014 - Jun 2016",
+      "role": "Software Developer (Integration)",
+      "description" : [
+        "Worked on system integration for a fuel card PIN authorization module from the start to the end of the project. Enhanced features of Java SWING based desktop client application."
+      ],
+      "techs": [
+        "Java",
+        "Java Swing Client",
+        "JSP",
+        "Servlets",
+        "EJB",
+        "Web Services",
+        "SOAP",
+        "System Integration",
+        "JBoss",
+        "Bamboo"
+      ]
+    },
+    {
+      "company": "EROAD Ltd",
+      "location": "Auckland, New Zealand",
+      "period": "Apr 2014 - Aug 2014",
+      "role": "Software Engineer (Java)",
+      "description" : [
+        "Implement the full feature of “Imported vehicle trip permit handling” of the system including integration with a 3rd party system and front end"
+      ],
+      "techs": [
+        "jQuery",
+        "AJAX",
+        "Java EE",
+        "Spring",
+        "Spring MVC",
+        "Hibernate",
+        "JUnit",
+        "Eclipse",
+        "Mercurial",
+        "Agile"
+      ]
+    },
+    {
+      "company": "Mako Networks",
+      "location": "Auckland, New Zealand",
+      "period": "Dec 2012 - Apr 2014",
+      "role": "Software Engineer (Java)",
+      "description" : [
+        "Involved in the full life cycle of developing Mako’s Network Failover Management, Dynamic Router Configurations, Visualized Network Status, PCI DSS Compliance modules. Mostly contributed to frontend development."
+      ],
+      "techs": [
+        "jQuery",
+        "Java EE",
+        "CORBA",
+        "Guice",
+        "Hibernate",
+        "ANT",
+        "MongoDB"
+      ]
+    },
+    {
+      "company": "John Keeells Computer Services",
+      "location": "Colombo, Sri Lanka",
+      "period": "Aug 2010 - Jul 2012",
+      "role": "Software Engineer (Java)",
+      "description" : [
+        "Involved in the full life cycle of developing Mako’s Network Failover Management, Dynamic Router Configurations, Visualized Network Status, PCI DSS Compliance modules. Mostly contributed to frontend development."
+      ],
+      "techs": [
+        "jQuery",
+        "Java",
+        "Spring",
+        "Struts 2",
+        "SQL",
+        "Web Services",
+        "Hibernate",
+        "JBoss Drools",
+        "Maven",
+        "SVN"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "company": "Kandula.io",
+      "location": "Auckland, New Zealand",
+      "role": "Principle Software Engineer",
+      "description" : [
+        "Involved in the full life cycle of developing Mako’s Network Failover Management, Dynamic Router Configurations, Visualized Network Status, PCI DSS Compliance modules. Mostly contributed to frontend development."
+      ],
+      "techs": [
+        "jQuery",
+        "Java",
+        "Spring",
+        "Struts 2",
+        "SQL",
+        "Web Services",
+        "Hibernate",
+        "JBoss Drools",
+        "Maven",
+        "SVN"
+      ]
+    }
+  ],
+  "skills": [
+    "ReactJS",
+    "Java",
+    "Spring Boot",
+    "Hibernate",
+    "Docker",
+    "Kubernetes",
+    "Google Cloud Platform",
+    "Terraform",
+    "Azure DevOps",
+    "Agile Software Development",
+    "Technical Leadership"
+  ],
+  "qualifications": [
+    {
+      "name": "B.Sc. in Management & Information Technology",
+      "institute": "University of Kelaniya, Sri Lanka",
+      "period": "Aug 2006 - Apr 2009"
+    },
+    {
+      "name": "GCE Advanced Level (Mathematics stream)",
+      "institute": "Royal College, Colombo, Sri Lanka",
+      "period": "Apr 2003 - Apr 2005"
+    }
+  ],
+  "certifications": [
+    {
+      "name" : "Sun Certified Web Components Developer",
+      "code" : "SCWCD 1.4",
+      "institute" : "Sun Microsystems",
+      "date" : "Dec 2008"
+    },
+    {
+      "name" : "Sun Certified Java Programmer",
+      "code" : "SCJP 1.4",
+      "institute" : "Sun Microsystems",
+      "date" : "Aug 2006"
+    }
+  ],
+  "opensource": [
+    {
+      "project" : "Spring Social Neo4j",
+      "url" : "https://github.com/maciossek/spring-social-neo4j",
+      "description" : "I have written the Neo4j connector for Spring Social project from scratch and contributed 95% of the code of the connector by myself."
+    }
+  ]
+}
