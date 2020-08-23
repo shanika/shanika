@@ -214,12 +214,5 @@
       "institute" : "Sun Microsystems",
       "date" : "Aug 2006"
     }
-  ],
-  "opensource": [
-    {
-      "project" : "Spring Social Neo4j",
-      "url" : "https://github.com/maciossek/spring-social-neo4j",
-      "description" : "I have written the Neo4j connector for Spring Social project from scratch and contributed 95% of the code of the connector by myself."
-    }
   ]
 }
