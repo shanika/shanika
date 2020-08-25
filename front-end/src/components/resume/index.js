@@ -1,7 +1,7 @@
 import React, {PureComponent} from 'react';
+import data from "../../data/cvdata.json";
 import Grid from "@material-ui/core/Grid";
 import Header from "../header";
-import data from "../../data/cvdata.json";
 import Contacts from "../contacts";
 import AboutMe from "../aboutme";
 import WorkExperience from "../experience";
