@@ -15,7 +15,7 @@ class ToolBar extends PureComponent {
             <Grid spacing={2} className="ToolBarContainer" direction="row" justify="flex-end" container>
                 <Grid item>
                     <Button size="small" className="ToolButton" variant="outlined" startIcon={<PictureAsPdfRoundedIcon />}>
-                        <PDFDownloadLink document={<PdfDocument />} fileName={`${data.firstName}_${data.lastName}.pdf`}>
+                        <PDFDownloadLink document={<PdfDocument />} fileName={`${data.firstName}_${data.lastName}_Resume.pdf`}>
                             {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download')}
                         </PDFDownloadLink>
                     </Button>
