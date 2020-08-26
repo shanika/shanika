@@ -19,7 +19,7 @@
       "role": "Fullstack Java Developer (Contract)",
       "description": [
         "Contributing to build and maintain a Traffic Operations Management System for New Zealand's Traffic Operation Centers. (ATOC/WTOC/CTOC)",
-        "I design, document and build backend services (Java/NodeJS) and help with ReactJS UI development. Maintain the Kubernetes cluster and Google Cloud based services managed with Terraform (Infrastructure As Code). Migrated Dev-Ops pipelines from Jenkins to Azure Dev-Ops.",
+        "I design, document and build backend services (Java/NodeJS) and help with ReactJS UI development. Maintain the Kubernetes cluster and Google Cloud based services managed with Terraform (Infrastructure As Code). Migrated CI/CD pipelines from Jenkins to Azure Dev-Ops.",
         "I enjoy working with a great agile team and provide leadership to the team where needed. The product has very satisfied customers."
       ],
       "techs": [
