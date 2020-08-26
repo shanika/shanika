@@ -5,10 +5,10 @@ I am hoping to add/utilize the technologies and concepts mentioned in my CV in t
 
 Tasks
 
-:black_square_button: Build CV web view rendered based on JSON data :heavy_check_mark:
-:black_square_button: Generate PDF version of the CV :heavy_check_mark:
-:black_square_button: Automatically build and deploy to firebase using Github Actions :heavy_check_mark:
-:black_square_button: Build a micro service to dynamically serve CV content as JSON
-:black_square_button: Use infrastructure as code to create and deploy the micro service 
-:black_square_button: Linked In integration
+* Build CV web view rendered based on JSON data :heavy_check_mark:
+* Generate PDF version of the CV :heavy_check_mark:
+* Automatically build and deploy to firebase using Github Actions :heavy_check_mark:
+* Build a micro service to dynamically serve CV content as JSON
+* Use infrastructure as code to create and deploy the micro service 
+* Linked In integration
 
