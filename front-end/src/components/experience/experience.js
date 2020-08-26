@@ -4,11 +4,13 @@ import Grid from "@material-ui/core/Grid";
 import {Typography} from "@material-ui/core";
 import Chip from "@material-ui/core/Chip";
 import './index.css'
+import Link from "@material-ui/core/Link";
 
 class Experience extends PureComponent {
     render() {
         const {
             company,
+            url,
             location,
             period,
             role,
@@ -19,7 +21,7 @@ class Experience extends PureComponent {
             <Grid className="ExperienceBlock" container>
                 <Grid xs={6} item>
                     <Typography variant="body1">
-                        <b>{company}</b>
+                        <b><Link target="_blank" href={url}>{company}</Link></b>
                     </Typography>
                     <p>
                         <Typography variant="body1">
@@ -48,6 +50,7 @@ class Experience extends PureComponent {
 
 Experience.propTypes = {
     company: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
     period: PropTypes.string.isRequired,
     role: PropTypes.string.isRequired,

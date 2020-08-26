@@ -44,8 +44,15 @@ const styles = StyleSheet.create({
         marginTop: 10,
         flexDirection: 'row'
     },
+    noLinkDeco : {
+        color: '#575757',
+        textDecoration: 'inherit'
+    },
     skills : {
         flexDirection: 'column'
+    },
+    skillsContainer : {
+        flexDirection: 'row'
     }
 });
 
@@ -71,7 +78,7 @@ const H4 = styled.Text`
 `;
 
 const Body = styled.Text`
-  font-size: 9;
+  font-size: 9.5;
   color: #575757;
   marginTop: 6;
 `;
@@ -89,7 +96,7 @@ class PdfDocument extends PureComponent {
             <Document>
                 <Page size="A4" style={styles.page}>
                     <View style={styles.cvLink}>
-                        <Text><Text style={{ color: '#505050'}}>Resume</Text> online version <Link src="https://shanika-wijerathna.web.app">shanika.dev/cv</Link></Text>
+                        <Text><Text style={{ color: '#505050'}}>Resume</Text> online version <Link src="https://shanika.dev/cv">shanika.dev/cv</Link></Text>
                     </View>
                     <View style={styles.title}>
                         <H1><Bold>{ data.firstName }</Bold> { data.lastName }</H1>
@@ -104,10 +111,10 @@ class PdfDocument extends PureComponent {
                         <H4><Bold>EXPERIENCE</Bold></H4>
                     </View>
                     {
-                        data.experience.map( ({company, location, period, role, description, techs}) =>
+                        data.experience.map( ({company, url, location, period, role, description, techs}) =>
                             <View wrap={false} style={styles.expContainer}>
                                 <HALF>
-                                    <Body><Bold>{ company }</Bold></Body>
+                                    <Body><Bold><Link src={url} style={styles.noLinkDeco}>{ company }</Link></Bold></Body>
                                     <Body>{ location }</Body>
                                     <Body style={{ marginTop: 2}}>{ period }</Body>
                                 </HALF>
@@ -126,10 +133,10 @@ class PdfDocument extends PureComponent {
                         <H4><Bold>PROJECTS</Bold></H4>
                     </View>
                     {
-                        data.projects.map( ({company, location, period, role, description, techs}) =>
+                        data.projects.map( ({company, url, location, period, role, description, techs}) =>
                             <View wrap={false} style={styles.expContainer}>
                                 <HALF>
-                                    <Body><Bold>{ company }</Bold></Body>
+                                    <Body><Bold><Link src={url} style={styles.noLinkDeco}>{ company }</Link></Bold></Body>
                                     <Body>{ location }</Body>
                                     { period && <Body>{ period }</Body> }
                                 </HALF>
@@ -148,9 +155,19 @@ class PdfDocument extends PureComponent {
                         <View style={styles.subTitle}>
                             <H4><Bold>SKILLS</Bold></H4>
                         </View>
-                        <View style={styles.skills}>
-                            { data.skills.map(skill => <Body>{ skill }</Body>)}
+                        <View style={styles.skillsContainer}>
+                            <HALF>
+                                <View style={styles.skills}>
+                                    { data.primarySkills.map(skill => <Body>{ skill }</Body>)}
+                                </View>
+                            </HALF>
+                            <HALF>
+                                <View style={styles.skills}>
+                                    { data.secondarySkills.map(skill => <Body>{ skill }</Body>)}
+                                </View>
+                            </HALF>
                         </View>
+
                     </View>
                     <View wrap={false} style={styles.expContainer}>
                         <HALF style={{ paddingRight: 10}}>

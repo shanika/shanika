@@ -5,26 +5,41 @@ import Grid from "@material-ui/core/Grid";
 
 class Skills extends PureComponent {
     render() {
-        const { skills } = this.props;
+        const { primarySkills, secondarySkills } = this.props;
         return (
             <Grid item>
                 <Typography variant="h4" gutterBottom>
                     Skills
                 </Typography>
-                {
-                    skills && skills.map(skill =>
-                            <Typography>
-                                { skill }
-                            </Typography>
-                    )
-                }
+                <Grid direction="row" container>
+                    <Grid sm={6} item>
+                        {
+                            primarySkills && primarySkills.map(skill =>
+                                <Typography>
+                                    { skill }
+                                </Typography>
+                            )
+                        }
+                    </Grid>
+                    <Grid sm={6} item>
+                        {
+                            secondarySkills && secondarySkills.map(skill =>
+                                <Typography>
+                                    { skill }
+                                </Typography>
+                            )
+                        }
+                    </Grid>
+                </Grid>
+
             </Grid>
         );
     }
 }
 
 Skills.propTypes = {
-    skills : PropTypes.array.isRequired
+    primarySkills : PropTypes.array.isRequired,
+    secondarySkills : PropTypes.array.isRequired
 };
 
 export default Skills;

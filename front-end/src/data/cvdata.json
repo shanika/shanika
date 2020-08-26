@@ -3,7 +3,7 @@
   "lastName": "Wijerathna",
   "about": {
     "role": "Fullstack Java Developer",
-    "description": "I enjoy solving complex problems by implementing simple solutions."
+    "description": "I like to solve complex problems by designing and implementing innovative and simple solutions. I am capable of working on the complete stack from Dev-Ops to Frontend and build web applications with latest technology and best practises."
   },
   "contactDetails": {
     "location": "Auckland, New Zealand",
@@ -13,15 +13,18 @@
   "experience": [
     {
       "company": "New Zealand Transport Agency",
+      "url": "https://www.nzta.govt.nz",
       "location": "Auckland, New Zealand",
       "period": "Mar 2018 - Present",
-      "role": "Fullstack Java Developer",
+      "role": "Fullstack Java Developer (Contract)",
       "description": [
-        "I have been contributing to build a Traffic Operations Management System for New Zealand's Traffic Operation Centers. (ATOC/WTOC)",
-        "Involved in the project from the start and contributed to building backend services, frontend components, configuring servers on the cloud, setting up dev-ops capabilities and provide technical leadership."
+        "Contributing to build and maintain a Traffic Operations Management System for New Zealand's Traffic Operation Centers. (ATOC/WTOC/CTOC)",
+        "I design, document and build backend services (Java/NodeJS) and help with ReactJS UI development. Maintain the Kubernetes cluster and Google Cloud based services managed with Terraform (Infrastructure As Code). Migrated Dev-Ops pipelines from Jenkins to Azure Dev-Ops.",
+        "I enjoy working with a great agile team and provide leadership to the team where needed. The product has very satisfied customers."
       ],
       "techs": [
         "ReactJS",
+        "NodeJS",
         "Java",
         "Spring Boot",
         "Hibernate",
@@ -36,11 +39,13 @@
     },
     {
       "company": "Vero Insurance",
+      "url": "https://www.vero.co.nz",
       "location": "Auckland, New Zealand",
       "period": "Dec 2016 - Feb 2018",
       "role": "Fullstack Java Developer (Contract)",
       "description" : [
-        "Involved in customizing a Business Insurance web portal for New Zealand market needs. I did system integration with backend Insurance quote processing systems and contributed to frontend customizations."
+        "Involved in customizing a Business Insurance web portal for New Zealand market needs.",
+        "Initiated the project as the 1st developer joined and customized/built Java Spring services. Developed frontend components using AngularJS and did system integration with backend Insurance quote processing systems"
       ],
       "techs": [
         "AngularJS",
@@ -55,11 +60,13 @@
     },
     {
       "company": "Sky TV",
+      "url": "https://www.sky.co.nz",
       "location": "Auckland, New Zealand",
       "period": "Jun 2016 - Dec 2016",
       "role": "Software Developer (Integration)",
       "description" : [
-        "Developed a test framework for Sky TV's backend media transcoding system. Fixed bugs in existing media transcoding system integration with other internal systems"
+        "Sky TV is a New Zealand's satellite television and streaming company.",
+        "I developed a Java/Cucumber based test framework for Sky TV's backend media transcoding system integration. And also contributed with fixing bugs of transcoding system integration with other internal systems"
       ],
       "techs": [
         "Java",
@@ -74,11 +81,13 @@
     },
     {
       "company": "WEX NZ Ltd",
+      "url": "https://www.wexinc.com",
       "location": "Auckland, New Zealand",
       "period": "Aug 2014 - Jun 2016",
       "role": "Software Developer (Integration)",
       "description" : [
-        "Worked on system integration for a fuel card PIN authorization module from the start to the end of the project. Enhanced features of Java SWING based desktop client application."
+        "WEX New Zealand is an international provider for fuel card solutions.",
+        "I worked on system integration for a fuel card PIN authorization module via Web Services (SOAP). Contributed to build and enhance features of Java SE based desktop client application used to manage fuel card services."
       ],
       "techs": [
         "Java",
@@ -95,11 +104,13 @@
     },
     {
       "company": "EROAD Ltd",
+      "url": "https://www.eroad.co.nz",
       "location": "Auckland, New Zealand",
       "period": "Apr 2014 - Aug 2014",
       "role": "Software Engineer (Java)",
       "description" : [
-        "Implement the full feature of “Imported vehicle trip permit handling” of the system including integration with a 3rd party system and front end"
+        "ERoad provides a solution for remote GPS tracking for trucks and fleet management.",
+        "I contributed to a feature of “Imported vehicle trip permit handling” of the system including integration with a 3rd party system and front end. Mainly used Spring and jQuery."
       ],
       "techs": [
         "jQuery",
@@ -116,11 +127,13 @@
     },
     {
       "company": "Mako Networks",
+      "url" : "https://makonetworks.com",
       "location": "Auckland, New Zealand",
       "period": "Dec 2012 - Apr 2014",
       "role": "Software Engineer (Java)",
       "description" : [
-        "Involved in the full life cycle of developing Mako’s Network Failover Management, Dynamic Router Configurations, Visualized Network Status, PCI DSS Compliance modules. Mostly contributed to frontend development."
+        "Mako Networks is a network management company specializing in network security.",
+        "I Involved in the full life cycle of developing Mako’s Network Failover Management, Dynamic Router Configurations, Visualized Network Status modules. Contributed to frontend development using jQuery. Optimized router configuration download service latency by optimizing hibernate that added great value to the product."
       ],
       "techs": [
         "jQuery",
@@ -134,11 +147,14 @@
     },
     {
       "company": "John Keeells Computer Services",
+      "url":"http://www.jkcsworld.com",
       "location": "Colombo, Sri Lanka",
       "period": "Aug 2010 - Jul 2012",
       "role": "Software Engineer (Java)",
       "description" : [
-        "Involved in the full life cycle of developing Mako’s Network Failover Management, Dynamic Router Configurations, Visualized Network Status, PCI DSS Compliance modules. Mostly contributed to frontend development."
+        "Worked on a hotel property management and booking system developed by John Keells Computer Services",
+        "Involved in full SDLC and contributed for frontend (jQuery) and backend (Java/Spring) development and integration. Introduced JBoss Drools to customize business rules in the booking engine module.",
+        "Involved with UAT testing and customer training."
       ],
       "techs": [
         "jQuery",
@@ -157,34 +173,45 @@
   "projects": [
     {
       "company": "Kandula.io",
+      "url" : "https://www.kandula.io",
       "location": "Auckland, New Zealand",
       "role": "Principle Software Engineer",
       "description" : [
-        "Involved in the full life cycle of developing Mako’s Network Failover Management, Dynamic Router Configurations, Visualized Network Status, PCI DSS Compliance modules. Mostly contributed to frontend development."
+        "Kandula is a startup initiative that helps users to easily configure, schedule and run JMeter based performance tests in their own cloud environments.",
+        "I designed and build the complete system using ReactJS and Serverless Micro services",
+        "Kandula won the people choice award at New Zealand Software Association's Angel at my table event in 2019"
       ],
       "techs": [
-        "jQuery",
-        "Java",
-        "Spring",
-        "Struts 2",
-        "SQL",
-        "Web Services",
-        "Hibernate",
-        "JBoss Drools",
-        "Maven",
-        "SVN"
+        "ReactJS",
+        "Ant Design",
+        "Spring Boot",
+        "Cloud Functions",
+        "Cloud Run",
+        "Terraform",
+        "Firebase",
+        "Google Cloud Build",
+        "BigQuery",
+        "Pub/Sub"
       ]
     }
   ],
-  "skills": [
+  "primarySkills": [
     "ReactJS",
-    "Java",
-    "Spring Boot",
+    "AngularJS",
+    "Java 9",
+    "Spring Boot & modules",
     "Hibernate",
+    "NodeJS",
+    "System Integration",
+    "Design Patterns",
+    "Micro Services"
+  ],
+  "secondarySkills": [
     "Docker",
     "Kubernetes",
     "Google Cloud Platform",
     "Terraform",
+    "Serverless",
     "Azure DevOps",
     "Agile Software Development",
     "Technical Leadership"

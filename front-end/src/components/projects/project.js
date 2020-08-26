@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 import Grid from "@material-ui/core/Grid";
 import {Typography} from "@material-ui/core";
 import Chip from "@material-ui/core/Chip";
-import '../experience/index.css'
+import './index.css'
+import Link from "@material-ui/core/Link";
 
 class Project extends PureComponent {
     render() {
         const {
             company,
+            url,
             location,
             period,
             role,
@@ -19,7 +21,7 @@ class Project extends PureComponent {
             <Grid className="ProjectBlock" container>
                 <Grid xs={6} item>
                     <Typography variant="body1">
-                        <b>{company}</b>
+                        <b><Link target="_blank" href={url}>{company}</Link></b>
                     </Typography>
                     <p>
                         <Typography variant="body1">
@@ -51,6 +53,7 @@ class Project extends PureComponent {
 
 Project.propTypes = {
     company: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
     period: PropTypes.string.isRequired,
     role: PropTypes.string.isRequired,

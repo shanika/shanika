@@ -27,8 +27,8 @@ class Resume extends PureComponent {
                     <AboutMe role={ data.about.role } description={ data.about.description } />
                     <WorkExperience>
                         {
-                            data.experience.map( ({company, location, period, role, description, techs }) =>
-                                <Experience company={company} location={location} period={period} role={role} techs={techs}>
+                            data.experience.map( ({company, url, location, period, role, description, techs }) =>
+                                <Experience company={company} url={url} location={location} period={period} role={role} techs={techs}>
                                     {
                                         description.map( para => <p>{ para }</p>)
                                     }
@@ -38,8 +38,8 @@ class Resume extends PureComponent {
                     </WorkExperience>
                     <Projects>
                         {
-                            data.projects.map( ({company, location, period, role, description, techs }) =>
-                                <Project company={company} location={location} period={period} role={role} techs={techs}>
+                            data.projects.map( ({company, url, location, period, role, description, techs }) =>
+                                <Project company={company} url={url} location={location} period={period} role={role} techs={techs}>
                                     {
                                         description.map( para => <p>{ para }</p>)
                                     }
@@ -47,7 +47,7 @@ class Resume extends PureComponent {
                             )
                         }
                     </Projects>
-                    <Skills skills={ data.skills }/>
+                    <Skills primarySkills={ data.primarySkills } secondarySkills={ data.secondarySkills }/>
                     <Grid direction="row" container>
                         <Grid sm={6} item>
                             <Education qualifications={ data.qualifications } />

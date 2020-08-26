@@ -6,6 +6,11 @@
     margin-top: 1rem;
 }
 
+.ExperienceBlock a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .TechChips {
     font-size: .7rem !important;
     border-radius: 5px !important;

@@ -2,6 +2,11 @@
     margin-top: 1rem;
 }
 
+.ProjectBlock a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .TechChips {
     font-size: .7rem !important;
     border-radius: 5px !important;
