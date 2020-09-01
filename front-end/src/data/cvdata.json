@@ -18,9 +18,9 @@
       "period": "Mar 2018 - Present",
       "role": "Fullstack Java Developer (Contract)",
       "description": [
-        "Contributing to build and maintain a Traffic Operations Management System for New Zealand's Traffic Operation Centers. (ATOC/WTOC/CTOC)",
-        "I design, document and build backend services (Java/NodeJS) and help with ReactJS UI development. Maintain the Kubernetes cluster and Google Cloud based services managed with Terraform (Infrastructure As Code). Migrated CI/CD pipelines from Jenkins to Azure Dev-Ops.",
-        "I enjoy working with a great agile team and provide leadership to the team where needed. The product has very satisfied customers."
+        "Contributing to build and maintain National Incident and Event Management System for New Zealand’s traffic operation centers. (ATOC/WTOC/CTOC)",
+        "Design, document and build backend services (Java/NodeJS) and help with ReactJS UI development. Maintain the Kubernetes cluster and Google Cloud based services managed with Terraform (Infrastructure as Code). Migrated CI/CD pipelines from Jenkins to Azure Dev-Ops.",
+        "Working with a great agile team and provide leadership to the team where needed. The product has very satisfied customers."
       ],
       "techs": [
         "ReactJS",
@@ -63,9 +63,9 @@
       "url": "https://www.sky.co.nz",
       "location": "Auckland, New Zealand",
       "period": "Jun 2016 - Dec 2016",
-      "role": "Software Developer (Integration)",
+      "role": "Software Developer (Contract)",
       "description" : [
-        "Sky TV is a New Zealand's satellite television and streaming company.",
+        "Sky TV is a New Zealand's satellite television and streaming company. I worked on a Sky TV’s media processing project called DNA",
         "I developed a Java/Cucumber based test framework for Sky TV's backend media transcoding system integration. And also contributed with fixing bugs of transcoding system integration with other internal systems"
       ],
       "techs": [
@@ -84,7 +84,7 @@
       "url": "https://www.wexinc.com",
       "location": "Auckland, New Zealand",
       "period": "Aug 2014 - Jun 2016",
-      "role": "Software Developer (Integration)",
+      "role": "Software Developer (Contract)",
       "description" : [
         "WEX New Zealand is an international provider for fuel card solutions.",
         "I worked on system integration for a fuel card PIN authorization module via Web Services (SOAP). Contributed to build and enhance features of Java SE based desktop client application used to manage fuel card services."
@@ -133,7 +133,7 @@
       "role": "Software Engineer (Java)",
       "description" : [
         "Mako Networks is a network management company specializing in network security.",
-        "I Involved in the full life cycle of developing Mako’s Network Failover Management, Dynamic Router Configurations, Visualized Network Status modules. Contributed to frontend development using jQuery. Optimized router configuration download service latency by optimizing hibernate that added great value to the product."
+        "I Involved in developing Mako’s Network Failover Management, Dynamic Router Configurations, Visualized Network Status modules. Contributed to frontend development using jQuery. Optimized router configuration download service latency by optimizing hibernate that added great value to the product."
       ],
       "techs": [
         "jQuery",
