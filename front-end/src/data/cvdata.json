@@ -3,7 +3,10 @@
   "lastName": "Wijerathna",
   "about": {
     "role": "Fullstack Java Developer",
-    "description": "I like to solve complex problems by designing and implementing innovative and simple solutions. I am capable of working on the complete stack from Dev-Ops to Frontend and build web applications with latest technology and best practises."
+    "description": [
+      "I build high quality web application software using my 10 years of experience, knowledge and skills of frontend and backend technologies and DevOps.",
+      "I am a fast lerner and always keen to bring in latest trends and best practises in the industry to the projects where appropriate, to deliver best value."
+    ]
   },
   "contactDetails": {
     "location": "Auckland, New Zealand",
@@ -18,9 +21,11 @@
       "period": "Mar 2018 - Present",
       "role": "Fullstack Java Developer (Contract)",
       "description": [
-        "Contributing to build and maintain National Incident and Event Management System for New Zealand’s traffic operation centers. (ATOC/WTOC/CTOC)",
-        "Design, document and build backend services (Java/NodeJS) and help with ReactJS UI development. Maintain the Kubernetes cluster and Google Cloud based services managed with Terraform (Infrastructure as Code). Migrated CI/CD pipelines from Jenkins to Azure Dev-Ops.",
-        "Working with a great agile team and provide leadership to the team where needed. The product has very satisfied customers."
+        "Build and maintain National Incident and Event Management System (NIEMS) of New Zealand’s traffic operation centers.",
+        "Designed and implemented Azure DevOps CI/CD pipelines",
+        "Design, document and build backend services (Java/NodeJS) and frontend components using ReactJS.",
+        "Maintain/Configure the Kubernetes cluster and Google Cloud based services managed with Terraform (Infrastructure as Code).",
+        "Working with a great agile team and provide leadership to the team where needed."
       ],
       "techs": [
         "ReactJS",
@@ -229,6 +234,12 @@
     }
   ],
   "certifications": [
+    {
+      "name" : "Certified Kubernetes Application Developer",
+      "code" : "CKAD",
+      "institute" : "Cloud Native Computing Foundation",
+      "date" : "Sep 2020"
+    },
     {
       "name" : "Sun Certified Web Components Developer",
       "code" : "SCWCD 1.4",

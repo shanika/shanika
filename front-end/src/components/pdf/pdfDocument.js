@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#FFFFFF',
         fontFamily: 'Montserrat',
         padding: 42,
-        paddingTop: 30
+        paddingTop: 45
     },
     cvLink: {
         fontSize: 10,
@@ -34,15 +34,21 @@ const styles = StyleSheet.create({
         color: '#585858'
     },
     about: {
-        marginTop: 10,
+        marginTop: 20,
         color: '#575757'
     },
+    about2: {
+        marginTop: 8,
+    },
     subTitle : {
-        marginTop: 14,
+        marginTop: 24,
     },
     expContainer : {
         marginTop: 10,
         flexDirection: 'row'
+    },
+    eduBlock : {
+        marginTop: 10,
     },
     noLinkDeco : {
         color: '#575757',
@@ -52,7 +58,11 @@ const styles = StyleSheet.create({
         flexDirection: 'column'
     },
     skillsContainer : {
+        marginTop: 10,
         flexDirection: 'row'
+    },
+    lastUpdated: {
+        marginTop: 45
     }
 });
 
@@ -78,7 +88,7 @@ const H4 = styled.Text`
 `;
 
 const Body = styled.Text`
-  font-size: 9.5;
+  font-size: 10;
   color: #575757;
   marginTop: 6;
 `;
@@ -105,7 +115,8 @@ class PdfDocument extends PureComponent {
                         <H3>{ data.contactDetails.location } | { data.contactDetails.email } | { data.contactDetails.phone }</H3>
                     </View>
                     <View style={styles.about}>
-                        <H2><Bold>{ data.about.role }</Bold> { data.about.description }</H2>
+                        <H2><Bold>{ data.about.role }</Bold>, { data.about.description[0] }</H2>
+                        <H2 style={styles.about2}>{ data.about.description[1] }</H2>
                     </View>
                     <View style={styles.subTitle}>
                         <H4><Bold>EXPERIENCE</Bold></H4>
@@ -176,7 +187,7 @@ class PdfDocument extends PureComponent {
                             </View>
                             {
                                 data.qualifications.map( ({ name, institute, period}) =>
-                                    <View>
+                                    <View style={styles.eduBlock} >
                                         <Body><Bold>{ name }</Bold></Body>
                                         <Body>{ institute }</Body>
                                         <Body style={{ marginTop: 2}}>{ period }</Body>
@@ -191,7 +202,7 @@ class PdfDocument extends PureComponent {
                             </View>
                             {
                                 data.certifications.map( ({ name, institute, code, date}) =>
-                                    <View>
+                                    <View style={styles.eduBlock}>
                                         <Body><Bold>{ name }</Bold> {code}</Body>
                                         <Body>{ institute }</Body>
                                         <Body style={{ marginTop: 2}}>{ date }</Body>
@@ -200,10 +211,8 @@ class PdfDocument extends PureComponent {
                             }
                         </HALF>
                     </View>
-                    <View style={styles.subTitle}>
-                        <H4><Bold>REFEREES</Bold></H4>
-                    </View>
-                    <Body>Available upon request</Body>
+                    <Body style={styles.lastUpdated}><Bold>Last updated</Bold>: 22nd Sep 2020</Body>
+                    <Body><Bold>Up-to-date Web Version</Bold>: <Link src="https://shanika.dev/cv">shanika.dev/cv</Link></Body>
                 </Page>
             </Document>
         );

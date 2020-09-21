@@ -8,7 +8,8 @@ class AboutMe extends PureComponent {
         const { role, description } = this.props;
         return (
             <Typography variant="h2" className="About-Me" gutterBottom>
-                <b>{ role }</b> { description }
+                <b>{ role }</b> { description[0] }
+                <p> { description[1] } </p>
             </Typography>
         );
     }
