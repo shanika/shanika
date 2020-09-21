@@ -22,7 +22,7 @@
       "role": "Fullstack Java Developer (Contract)",
       "description": [
         "Build and maintain National Incident and Event Management System (NIEMS) of New Zealand’s traffic operation centers.",
-        "Designed and implemented Azure DevOps CI/CD pipelines",
+        "Designed and implemented Azure DevOps CI/CD pipelines for NIEMS",
         "Design, document and build backend services (Java/NodeJS) and frontend components using ReactJS.",
         "Maintain/Configure the Kubernetes cluster and Google Cloud based services managed with Terraform (Infrastructure as Code).",
         "Working with a great agile team and provide leadership to the team where needed."
