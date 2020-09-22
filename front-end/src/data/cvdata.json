@@ -183,7 +183,7 @@
       "role": "Principle Software Engineer",
       "description" : [
         "Kandula is a startup initiative that helps users to easily configure, schedule and run JMeter based performance tests in their own cloud environments.",
-        "I designed and build the complete system using ReactJS and Serverless Micro services",
+        "I designed and build the complete system using ReactJS and Serverless Microservices",
         "Kandula won the people's choice award at New Zealand Software Association's Angel at my table event in 2019"
       ],
       "techs": [
