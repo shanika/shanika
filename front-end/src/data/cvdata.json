@@ -5,7 +5,7 @@
     "role": "Fullstack Java Developer",
     "description": [
       "I build high quality web application software using my 10 years of experience, knowledge and skills of frontend and backend technologies and DevOps.",
-      "I am a fast lerner and always keen to bring in latest trends and best practises in the industry to the projects where appropriate, to deliver best value."
+      "I am a fast learner and always keen to bring in latest trends and best practices in the industry to the projects where appropriate, to deliver best value."
     ]
   },
   "contactDetails": {
@@ -25,7 +25,7 @@
         "Designed and implemented Azure DevOps CI/CD pipelines for NIEMS",
         "Design, document and build backend services (Java/NodeJS) and frontend components using ReactJS.",
         "Maintain/Configure the Kubernetes cluster and Google Cloud based services managed with Terraform (Infrastructure as Code).",
-        "Working with a great agile team and provide leadership to the team where needed."
+        "Working with a great agile team and providing leadership to the team where needed."
       ],
       "techs": [
         "ReactJS",
@@ -184,7 +184,7 @@
       "description" : [
         "Kandula is a startup initiative that helps users to easily configure, schedule and run JMeter based performance tests in their own cloud environments.",
         "I designed and build the complete system using ReactJS and Serverless Micro services",
-        "Kandula won the people choice award at New Zealand Software Association's Angel at my table event in 2019"
+        "Kandula won the people's choice award at New Zealand Software Association's Angel at my table event in 2019"
       ],
       "techs": [
         "ReactJS",
