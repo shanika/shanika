@@ -3,11 +3,11 @@ name: Backend Service
 on:
   push:
     branches: [ master ]
-    paths: 'backend/**'
+#    paths: 'backend/**'
 
-#defaults:
-#  run:
-#    working-directory: backend
+defaults:
+  run:
+    working-directory: backend
 
 jobs:
   build:
@@ -22,11 +22,12 @@ jobs:
         with:
           java-version: 11
 
-      - run: export GRADLE_OPTS=-Dorg.gradle.project.buildDir=$GITHUB_WORKSPACE/shanika/backend
+      - run: export GRADLE_OPTS=-Dorg.gradle.project.buildDir=$(pwd)
         name: Set working dir
 
       - run: echo $GRADLE_OPTS
-      - run: ls $GITHUB_WORKSPACE/shanika/backend
+      - run: pwd
+      - run: ls
 
 
 
