@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: io.cvstore
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, docker, file-watch, graalvm, gradle, http-client, java, java-application, jib, junit, logback, mongo-sync, netty-server, readme, yaml]

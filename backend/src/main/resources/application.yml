@@ -1,0 +1,6 @@
+micronaut:
+  application:
+    name: dataStore
+#mongodb.uri: mongodb://${MONGO_HOST:localhost}:${MONGO_PORT:27017}
+mongodb.uri: mongodb://app:${PASSWORD}@cv-data-store-shard-00-00.xqyxt.gcp.mongodb.net:27017,cv-data-store-shard-00-01.xqyxt.gcp.mongodb.net:27017,cv-data-store-shard-00-02.xqyxt.gcp.mongodb.net:27017/cvdata?ssl=true&replicaSet=atlas-qbb41w-shard-0&authSource=admin&retryWrites=true&w=majority
+
