@@ -22,10 +22,15 @@ jobs:
         with:
           java-version: 11
 
-      - uses: eskatos/gradle-command-action@v1
-        with:
-          arguments: jib
-          build-root-directory: ./backend
+      - run: ls $GITHUB_WORKSPACE
+      - run: ls $GITHUB_WORKSPACE/shanika
+      - run: ls $GITHUB_WORKSPACE/shanika/shanika
+
+
+#      - uses: eskatos/gradle-command-action@v1
+#        with:
+#          arguments: jib
+#          build-root-directory: $GITHUB_WORKSPACE/shanika/backend
 
 
 
