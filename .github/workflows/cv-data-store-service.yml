@@ -1,4 +1,4 @@
-name: CV Data Store Service
+name: Backend Service
 
 on:
   push:
