@@ -2,7 +2,7 @@ package io.cvstore.service;
 
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoCollection;
-import io.cvstore.domain.CV;
+import io.cvstore.domain.cv.CvData;
 import lombok.extern.slf4j.Slf4j;
 import org.bson.Document;
 
@@ -21,10 +21,10 @@ public class CVDataService {
     @Inject
     MongoClient mongoClient;
 
-    public CV getCvData() {
+    public CvData getCvData() {
         MongoCollection<Document> collection = mongoClient.getDatabase("cvdata")
             .getCollection("cvdata");
 
-        return collection.find(CV.class).first();
+        return collection.find(CvData.class).first();
     }
 }

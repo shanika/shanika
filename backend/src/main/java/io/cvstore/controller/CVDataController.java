@@ -1,6 +1,6 @@
 package io.cvstore.controller;
 
-import io.cvstore.domain.CV;
+import io.cvstore.domain.cv.CvData;
 import io.cvstore.service.CVDataService;
 import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Controller;
@@ -22,7 +22,7 @@ public class CVDataController {
 
     @Get
     @Produces(MediaType.APPLICATION_JSON)
-    public CV getCvData() {
+    public CvData getCvData() {
         return cvDataService.getCvData();
     }
 }
