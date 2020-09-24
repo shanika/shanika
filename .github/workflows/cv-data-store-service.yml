@@ -31,6 +31,14 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew jib -x test
 
+      - name: Deploy
+        uses: stefda/action-cloud-run@v1.0
+        with:
+          image: gcr.io/shanika-wijerathna/cv-data-store
+          service: cv-data-store
+          project: shanika-wijerathna
+          region: us-central1
+          service key: ${{ secrets.SERVICE_ACCOUNT_KEY }}
 
 
 
