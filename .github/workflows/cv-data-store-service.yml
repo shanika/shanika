@@ -38,7 +38,7 @@ jobs:
           service: cv-data-store
           project: shanika-wijerathna
           region: us-central1
-          service key: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+          service key: ${{ secrets.GCLOUD_AUTH }}
 
 
 
