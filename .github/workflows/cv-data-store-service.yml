@@ -22,13 +22,10 @@ jobs:
         with:
           java-version: 11
 
-      - run: export GRADLE_OPTS=-Dorg.gradle.project.buildDir=$(pwd)
-        name: Set working dir
-
-      - run: echo $GRADLE_OPTS
-      - run: pwd
-      - run: ls
-
+      - uses: eskatos/gradle-command-action@v1
+        with:
+          arguments: jib
+          build-root-directory: ./backend
 
 
 
