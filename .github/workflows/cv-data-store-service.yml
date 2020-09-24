@@ -11,7 +11,7 @@ defaults:
 
 jobs:
   build:
-    name: Build & Publish image
+    name: Build & Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -29,14 +29,8 @@ jobs:
           HOST: 'gcr.io'
 
       - name: Build with Gradle
-        run: ./gradlew jib -x test
+        run: ./gradlew jibDockerBuild -x test
 
-
-
-  deploy:
-    name: Deploy
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy
         uses: stefda/action-cloud-run@v1.0
         with:
