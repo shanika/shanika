@@ -11,7 +11,7 @@ defaults:
 
 jobs:
   build:
-    name: Build & Deploy
+    name: Build & Publish image
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,6 +31,12 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew jib -x test
 
+
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy
         uses: stefda/action-cloud-run@v1.0
         with:
