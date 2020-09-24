@@ -26,10 +26,10 @@ jobs:
         run: ./gradlew jibDockerBuild -x test
 
       - name: Setup env vars
-        run: echo "PASSWORD=$MONGODB_PASSWORD" > VARS.env && cat VARS.env
+        run: echo "PASSWORD=$PASSWORD" > VARS.env
         shell: bash
         env:
-          MONGODB_PASSWORD: ${{secrets.MONGODB_PASSWORD}}
+          PASSWORD: ${{secrets.MONGODB_PASSWORD}}
 
       - name: Deploy
         uses: stefda/action-cloud-run@v1.0
@@ -38,7 +38,7 @@ jobs:
           service: cv-data-store
           project: shanika-wijerathna
           region: us-central1
-          env: ./VARS.env
+          env: ./backend/VARS.env
           service key: ${{ secrets.GCLOUD_AUTH }}
 
 
