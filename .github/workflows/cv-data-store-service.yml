@@ -22,12 +22,10 @@ jobs:
         with:
           java-version: 11
 
-      - run:
-          name: Set working dir
-          shell: export GRADLE_OPTS=-Dorg.gradle.project.buildDir=$GITHUB_WORKSPACE/shanika/backend
+      - run: export GRADLE_OPTS=-Dorg.gradle.project.buildDir=$GITHUB_WORKSPACE/shanika/backend
+        name: Set working dir
 
-      - run:
-          shell: echo GRADLE_OPTS
+      - run: echo GRADLE_OPTS
 
 
 
