@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
  * @since 25/09/20
  */
 @MicronautTest
-class CVDataControllerTest {
+class CvDataControllerTest {
 
     @Inject
     @Client("/data")

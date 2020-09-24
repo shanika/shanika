@@ -15,7 +15,7 @@ import javax.inject.Inject;
  * @since 24/09/20
  */
 @Controller("/data")
-public class CVDataController {
+public class CvDataController {
 
     @Inject
     CVDataService cvDataService;
