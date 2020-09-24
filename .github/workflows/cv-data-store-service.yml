@@ -25,8 +25,8 @@ jobs:
       - uses: eskatos/gradle-command-action@v1
         with:
           arguments: jib
-          wrapper-directory: $GITHUB_WORKSPACE/backend
-          build-root-directory: $GITHUB_WORKSPACE/backend
+          wrapper-directory: ${GITHUB_WORKSPACE}/backend
+          build-root-directory: ${GITHUB_WORKSPACE}/backend
 
 
 
