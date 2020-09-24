@@ -22,6 +22,12 @@ jobs:
         with:
           java-version: 11
 
+      - name: Login Docker
+        use: 'lagren/docker-gcr-action@master'
+        with:
+          SERVICE_ACCOUNT_KEY: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+          HOST: 'gcr.io'
+
       - name: Build with Gradle
         run: ./gradlew jib -x test
 
