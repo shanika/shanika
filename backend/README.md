@@ -1,4 +1,3 @@
-## Feature http-client documentation
+## A backend service deployed on Google Cloud Run to serve data from a mongo db database
 
-- [Micronaut Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
+Built using java Micronaut framework
