@@ -47,6 +47,8 @@ dependencies {
 
     testCompileOnly 'org.projectlombok:lombok:1.18.12'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
+
+    testCompile "org.testcontainers:mongodb:1.14.3"
 }
 
 test.classpath += configurations.developmentOnly

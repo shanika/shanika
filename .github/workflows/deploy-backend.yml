@@ -23,7 +23,7 @@ jobs:
           java-version: 11
 
       - name: Build with Gradle
-        run: ./gradlew jibDockerBuild -x test
+        run: ./gradlew jibDockerBuild
 
       - name: Setup env vars
         run: echo "PASSWORD=$PASSWORD" > VARS.env
