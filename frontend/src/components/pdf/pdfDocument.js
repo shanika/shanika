@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styled from '@react-pdf/styled-components';
-import {Document, Font, Link, Page, StyleSheet, Text, View} from '@react-pdf/renderer';
+import {Document, Font, Link, Page, StyleSheet, View} from '@react-pdf/renderer';
 import TechTags from "./TechTags";
 
 Font.register({ family: 'Montserrat', src: '/Montserrat-Regular.ttf' });
