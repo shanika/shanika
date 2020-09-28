@@ -8,7 +8,7 @@ Tasks
 * Build CV web view rendered based on JSON data :heavy_check_mark:
 * Generate PDF version of the CV :heavy_check_mark:
 * Automatically build and deploy to firebase using Github Actions :heavy_check_mark:
-* Build a micro service to dynamically serve CV content as JSON
+* Build a micro service to dynamically serve CV content as JSON :heavy_check_mark:
 * Use infrastructure as code to create and deploy the micro service 
 * Linked In integration
 
