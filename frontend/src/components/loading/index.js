@@ -18,7 +18,7 @@ class Loading extends PureComponent {
                     <CircularProgress />
                 </Grid>
                 <Grid style={{ marginTop: 20, color: "#4c4c4c"}} item xs={3}>
-                    This may take up to 4 seconds to start the server
+                    This may take up to 5 seconds to start the server
                 </Grid>
 
             </Grid>

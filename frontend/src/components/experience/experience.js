@@ -19,7 +19,7 @@ class Experience extends PureComponent {
         } = this.props;
         return (
             <Grid className="ExperienceBlock" container>
-                <Grid xs={6} item>
+                <Grid sm={6} xs={12} item>
                     <Typography variant="body1">
                         <b><Link target="_blank" href={url}>{company}</Link></b>
                     </Typography>
@@ -32,7 +32,7 @@ class Experience extends PureComponent {
                         </Typography>
                     </p>
                 </Grid>
-                <Grid xs={6} item>
+                <Grid sm={6} xs={12} item>
                     <Typography variant="body1">
                         <b>{role}</b>
                     </Typography>

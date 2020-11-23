@@ -19,7 +19,7 @@ class Project extends PureComponent {
         } = this.props;
         return (
             <Grid className="ProjectBlock" container>
-                <Grid xs={6} item>
+                <Grid sm={6} xs={12} item>
                     <Typography variant="body1">
                         <b><Link target="_blank" href={url}>{company}</Link></b>
                     </Typography>
@@ -35,7 +35,7 @@ class Project extends PureComponent {
                         }
                     </p>
                 </Grid>
-                <Grid xs={6} item>
+                <Grid sm={6} xs={12} item>
                     <Typography variant="body1">
                         <b>{role}</b>
                     </Typography>
