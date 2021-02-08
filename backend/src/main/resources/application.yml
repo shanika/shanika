@@ -4,8 +4,6 @@ micronaut:
 
 mongodb:
   uri: mongodb+srv://app:${PASSWORD}@cv-data-store.xqyxt.gcp.mongodb.net/cvdata
-  ssl:
-    enabled: false
 
 app:
   mongoDb:
