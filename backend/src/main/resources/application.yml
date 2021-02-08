@@ -1,7 +1,11 @@
 micronaut:
   application:
     name: dataStore
-mongodb.uri: mongodb+srv://app:${PASSWORD}@cv-data-store.xqyxt.gcp.mongodb.net/cvdata?retryWrites=true&w=majority
+
+mongodb:
+  uri: mongodb+srv://app:${PASSWORD}@cv-data-store.xqyxt.gcp.mongodb.net/cvdata
+  ssl:
+    enabled: false
 
 app:
   mongoDb:
