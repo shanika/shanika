@@ -112,6 +112,24 @@ function PdfDocument({ data }) {
                     <H2><Bold>{data.about.role}</Bold>, {data.about.description[0]}</H2>
                     <H2 style={styles.about2}>{data.about.description[1]}</H2>
                 </View>
+                <View wrap={false}>
+                    <View style={styles.subTitle}>
+                        <H4><Bold>SKILLS</Bold></H4>
+                    </View>
+                    <View style={styles.skillsContainer}>
+                        <HALF>
+                            <View style={styles.skills}>
+                                {data.primarySkills.map(skill => <Body>{skill}</Body>)}
+                            </View>
+                        </HALF>
+                        <HALF>
+                            <View style={styles.skills}>
+                                {data.secondarySkills.map(skill => <Body>{skill}</Body>)}
+                            </View>
+                        </HALF>
+                    </View>
+
+                </View>
                 <View style={styles.subTitle}>
                     <H4><Bold>EXPERIENCE</Bold></H4>
                 </View>
@@ -155,24 +173,6 @@ function PdfDocument({ data }) {
                             </View>
                         )
                     }
-                </View>
-                <View wrap={false}>
-                    <View style={styles.subTitle}>
-                        <H4><Bold>SKILLS</Bold></H4>
-                    </View>
-                    <View style={styles.skillsContainer}>
-                        <HALF>
-                            <View style={styles.skills}>
-                                {data.primarySkills.map(skill => <Body>{skill}</Body>)}
-                            </View>
-                        </HALF>
-                        <HALF>
-                            <View style={styles.skills}>
-                                {data.secondarySkills.map(skill => <Body>{skill}</Body>)}
-                            </View>
-                        </HALF>
-                    </View>
-
                 </View>
                 <View wrap={false} style={styles.expContainer}>
                     <HALF style={{paddingRight: 10}}>

@@ -24,6 +24,7 @@ function Resume({ data }) {
                 <Contacts location={data.contactDetails.location} email={data.contactDetails.email}
                           phoneNumber={data.contactDetails.phone}/>
                 <AboutMe role={data.about.role} description={data.about.description}/>
+                <Skills primarySkills={data.primarySkills} secondarySkills={data.secondarySkills}/>
                 <WorkExperience>
                     {
                         data.experience.map(({company, url, location, period, role, description, techs}) =>
@@ -48,7 +49,6 @@ function Resume({ data }) {
                         )
                     }
                 </Projects>
-                <Skills primarySkills={data.primarySkills} secondarySkills={data.secondarySkills}/>
                 <Grid direction="row" container>
                     <Grid sm={6} item>
                         <Education qualifications={data.qualifications}/>
