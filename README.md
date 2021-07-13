@@ -1,5 +1,7 @@
 Shanika Wijerathna | Fullstack Java Developer
 
+[https://shanika.dev](https://shanika.dev/cv)
+
 This repository has the source code for my CV built as a simple web application. 
 I am hoping to add/utilize the technologies and concepts mentioned in my CV in this project, as a demonstration of my technical skills. 
 
