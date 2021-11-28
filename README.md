@@ -13,4 +13,3 @@ Tasks
 * Build a micro service to dynamically serve CV content as JSON :heavy_check_mark:
 * Use infrastructure as code to create and deploy the micro service 
 * Linked In integration
-
