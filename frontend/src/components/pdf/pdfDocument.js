@@ -206,7 +206,8 @@ function PdfDocument({ data }) {
                     </HALF>
                 </View>
                 <Body style={styles.lastUpdated}><Bold>Last updated</Bold>: 27th Feb 2023</Body>
-                <Body><Bold>Up-to-date Web Version</Bold>: <Link
+                <Body>
+                    <Bold>Up-to-date Web Version</Bold>: <Link
                     src="https://shanika.dev/cv">shanika.dev/cv</Link></Body>
             </Page>
         </Document>
