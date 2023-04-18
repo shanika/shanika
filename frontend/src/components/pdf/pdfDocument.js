@@ -106,7 +106,7 @@ function PdfDocument({ data }) {
                     <H1><Bold>{data.firstName}</Bold> {data.lastName}</H1>
                 </View>
                 <View style={styles.contact}>
-                    <H3>{data.contactDetails.location}</H3>
+                    <H3>{data.contactDetails.location} | {data.contactDetails.email} | {data.contactDetails.phone}</H3>
                 </View>
                 <View style={styles.about}>
                     <H2><Bold>{data.about.role}</Bold>, {data.about.description[0]}</H2>
